@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*
+body {
+	margin: 0;
+}
+*/
+
+
+
+body{background-image: url(green_dust_scratch.png)}
+
+p {
+	margin: 0;
+}
+
+img{
+    margin:0;
+    padding:0;
+    border:none;
+    vertical-align:middle;
+   
+}
+
+.P{background-size:200px 200px;}
+
+
+.wrapper{
+    width:960px;
+    margin:0 auto;
+    background: rgb(254,252,234); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(254,252,234,0.5) 0%, rgba(241,218,54,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(254,252,234,0.5) 0%,rgba(241,218,54,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(254,252,234,0.5) 0%,rgba(241,218,54,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.gnav{
+       background-color: #7DD8D1;
+    background: -webkit-linear-gradient(top,#89EDDF,#6bba70);
+    background: linear-gradient(to bottom,#89EDDF,#6bba70)
+
+}
+
+.gnav ul{
+    overflow: hidden;
+    margin:0 0 0 0;
+    margin-bottom: 30px;
+
+}
+
+.gnav li{
+
+    float:left;
+    text-align:center;
+
+}
+
+.gnav li a{
+    display:block;
+    color:white;
+    padding:16px 0 16px 0;
+    text-decoration:none;
+    width:192px;
+}
+
+.gnav li a:hover{
+    color:#ccc;
+    
+}
+
+
+.gnav li:first-child{padding-left: 80px;}
+
+
+.A{float:left;
+margin:0 10px 0 15px;
+}
+
+
+
+
+h1{
+    float:left;
+    display: block;
+    padding: 27px;
+    font-size: 2.3em;
+    border: solid 3px black;
+}
+
+.B{
+    float:left;
+   margin:0 10px 0 10px;
+    
+}
+
+.C{
+    clear: both;
+    width: 960px;
+}
+
+.C h2{ 
+    display: inline-block;
+    padding:8px 0 8px 0;
+color: #364e96;/*文字色*/
+border: solid 3px #364e96;/*線色*/
+padding: 0.5em;/*文字周りの余白*/
+border-radius: 0.5em;/*角丸*/}
+
+
+.C p{
+        display:block;
+     width: 960px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.D{
+    float: left;
+    width: 577px;
+    height: 460px;
+    
+    
+    
+}
+
+
+.E h2{float:left;
+    display: block;
+    
+}
+
+.F{
+    clear: both;
+    float:left;
+    
+}
+
+
+
+.F h2{
+    font-size: 50px;
+    font-family: Gungsuh;
+    color: #364e96;/*文字色*/
+border: solid 3px #364e96;/*線色*/
+padding: 0.5em;/*文字周りの余白*/
+border-radius: 0.5em;/*角丸*/
+}
+
+
+
+
+
+footer{display:inline-block;
+width: 960px;
+background-color: #7DD8D1;
+background: -webkit-linear-gradient(top,#89EDDF,#6bba70);
+background: linear-gradient(to bottom,#89EDDF,#6bba70);
+text-align: center;
+padding:16px 0 16px 0;
+clear: both}
